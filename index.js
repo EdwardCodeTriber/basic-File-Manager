@@ -19,3 +19,14 @@ if (!fs.existsSync(directory)) {
     // Create shopping list file
     fs.writeFileSync(filePath, JSON.stringify([])); 
   }
+
+  //  function to read shopping list
+const readShoppingList = () => {
+    const data = fs.readFileSync(filePath, 'utf8');
+    return JSON.parse(data);
+  };
+  
+  // function to write shopping list
+  const writeShoppingList = (data) => {
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+  };
