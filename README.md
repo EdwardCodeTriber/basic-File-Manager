@@ -65,4 +65,23 @@ Error Handling:
 ## Running the Application:
 - Ensure you have Node.js installed.
 - node index.js
-Use Postman or cURL to test the API endpoints. All shopping list data is stored in shopping-list.json.
+## Use Postman or cURL to test the API endpoints. All shopping list data is stored in shopping-list.json.
+
+## Requirements
+
+## Create a basic File Manager and a REST API for managing a shopping list. 
+- You are required to build a Node.js application that serves as both a basic File Manager and a REST API for managing a shopping list.
+## Requirements:
+# File Manager:
+- Create a new directory.
+- Create a JSON file within the directory.
+- Read and parse the JSON file.
+- Update the JSON file with new data.
+# Shopping List API:
+- Implement CRUD operations (GET, POST, PUT/PATCH, DELETE) using the built-in http module.
+- Manage endpoints for /shopping-list to handle shopping list items.
+- Handle JSON data exchange for storing and retrieving shopping list items.
+- Implement basic error handling and validation.
+# Testing:
+- Thoroughly test the combined application to ensure all features (file management and API endpoints) function correctly.
+- Use tools like Postman to test API endpoints for CRUD operations on the shopping list.
