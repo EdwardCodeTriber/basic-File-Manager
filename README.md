@@ -20,22 +20,34 @@
 
 ## GET all items:
 
-bash
+
 Copy code
 GET http://localhost:3000/shopping-list
 POST a new item:
 
-bash
+
 Copy code
 POST http://localhost:3000/shopping-list
 Body: raw JSON
 {
-  "name": "Milk",
+  "name": "Meat",
   "quantity": 2
+},
+{
+  "name": "Juice",
+  "quantity": 1
+},
+{
+  "name": "Bread",
+  "quantity": 2
+},
+{
+  "name": "Tooth Paste",
+  "quantity": 4
 }
 PUT to update an item:
 
-bash
+
 Copy code
 PUT http://localhost:3000/shopping-list/{id}
 Body: raw JSON
@@ -45,7 +57,7 @@ Body: raw JSON
 }
 ## DELETE an item:
 
-bash
+
 Copy code
 DELETE http://localhost:3000/shopping-list/{id}
 Error Handling:
