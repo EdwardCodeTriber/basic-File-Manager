@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "name": "Meat",
+    "quantity": 2,
+    "id": 1737100923102
+  },
+  {
+    "name": "Almond Milk",
+    "quantity": 1,
+    "id": 1737101067219
+  },
+  {
+    "name": "Bread",
+    "quantity": 2,
+    "id": 1737101075708
+  },
+  {
+    "name": "Tooth Paste",
+    "quantity": 4,
+    "id": 1737101079911
+  },
+  {
+    "name": " Soap",
+    "quantity": 7,
+    "id": 1737104734428
+  }
+]
