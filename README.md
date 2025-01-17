@@ -85,3 +85,6 @@ Error Handling:
 # Testing:
 - Thoroughly test the combined application to ensure all features (file management and API endpoints) function correctly.
 - Use tools like Postman to test API endpoints for CRUD operations on the shopping list.
+
+## Hosted Server
+ - https://event-loops.onrender.com
